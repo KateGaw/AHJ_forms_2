@@ -1,6 +1,6 @@
 import puppetteer from 'puppeteer';
 
-jest.setTimeout(5000000);
+jest.setTimeout(7000000);
 
 describe('INN/OGRN form', () => {
   let browser = null;
@@ -64,8 +64,8 @@ describe('INN/OGRN form', () => {
     await page.waitFor(5000);
 
     // delete last line
-    // const deleteBtn = await page.$('.delete_3');
-    // deleteBtn.click();
-    // await page.waitFor(5000);
+    const deleteBtn = await page.$('.delete_3');
+    deleteBtn.click();
+    await page.waitFor(5000);
   });
 });
