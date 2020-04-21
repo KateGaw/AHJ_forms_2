@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>List CRUD</title>
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="form-container">
+            <h1>Товары</h1>
+            <input type="button" value="+" class="btn createB" id="createB" data-id="createB" />
+
+        </div>
+        <div class="table-container">
+            <table id="table">
+                <thead id="table-head">
+                    <tr>
+                        <th>Название</th>
+                        <th>Цена</th>
+                        <th>Действия</th>
+                    </tr>
+                </thead>
+            </table>
+        </div>
+        <form id="form" class="form" data-id='form'>
+            <input type="text" class="inp nameInput" id="name" placeholder="Название" data-id='name' required />
+            <p class="invalind" id="name_invalid"></p>
+            <input type="number" class="inp costInput" id="cost" placeholder="Цена" data-id='cost' min="1" required />
+            <p class="invalind" id="cost_invalid" data-id='cost_invalid'></p>
+            <div class="form_buttons">
+                <input type="button" class="inp saveBtn" value="Сохранить" id="btnSave" data-id='btnSave' />
+                <input type="button" class="inp cancelBtn" value="Отмена" id="btnCancel" data-id='btnCancel' />
+            </div>
+
+        </form>
+    </div>
+</body>
+
+</html>

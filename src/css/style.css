@@ -1,0 +1,81 @@
+body {
+    font-size: 18px;
+    color: rgb(80, 76, 76);
+}
+
+table {
+    border: 1px solid rgb(80, 76, 76);
+}
+
+tr,
+td {
+    height: 30px;
+    text-align: left;
+}
+
+td,
+th {
+    min-width: 50px;
+    max-width: 100%;
+    padding: 0 10px;
+}
+
+.table-container {
+    position: fixed;
+    z-index: 1;
+}
+
+.form {
+    display: none;
+    border: 1px solid;
+    padding: 50px;
+    width: 322px;
+    flex-direction: column;
+    margin: -17px 20px 0 0;
+    background-color: white;
+    z-index: 2;
+    position: relative;
+}
+
+.inp {
+    border-radius: 12px;
+    padding: 9px;
+    width: 300px;
+}
+
+.form-container {
+    display: flex;
+    align-items: center;
+}
+
+.form-container h1 {
+    margin-right: 17%;
+    margin-left: 8px;
+}
+
+.btn {
+    border: none;
+    background-color: white;
+    margin: 5px;
+    cursor: pointer;
+    color: rgb(80, 76, 76);
+}
+
+.createB {
+    font-size: 30px;
+}
+
+.invalind {
+    color: red;
+    font-size: 12px;
+}
+
+.form_buttons {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.saveBtn,
+.cancelBtn {
+    width: 140px;
+}
