@@ -47,7 +47,7 @@ const updateTable = () => {
 
     btnDelete.setAttribute('type', 'button');
     btnDelete.setAttribute('value', 'X');
-    btnDelete.setAttribute('class', 'btn btnDelete');
+    btnDelete.setAttribute('class', `btn btnDelete delete_${i}`);
     btnDelete.setAttribute('id', i);
 
     btnEdit.setAttribute('type', 'button');
