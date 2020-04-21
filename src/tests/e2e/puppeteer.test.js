@@ -1,6 +1,6 @@
 import puppetteer from 'puppeteer';
 
-jest.setTimeout(3000000); // default puppeteer timeout
+jest.setTimeout(5000000); // default puppeteer timeout
 
 describe('INN/OGRN form', () => {
   let browser = null;
