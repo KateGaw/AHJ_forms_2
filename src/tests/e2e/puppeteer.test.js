@@ -64,8 +64,8 @@ describe('INN/OGRN form', () => {
     await page.waitFor(5000);
 
     // delete last line
-    const deleteBtn = await page.$('.delete_3');
-    deleteBtn.click();
-    await page.waitFor(5000);
+    // const deleteBtn = await page.$('.delete_3');
+    // deleteBtn.click();
+    // await page.waitFor(5000);
   });
 });
